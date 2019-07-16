@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile">
+
+
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+
+            tools:context=".Profile" tools:layout_editor_absoluteX="-28dp"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Firstname"
+
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+            <TextView
+                android:text="pawansharma548@gmail.com"
+                android:layout_width="match_parent"
+
+                android:textSize="22sp"
+                android:layout_marginTop="8dp"
+                android:textColor="#000"
+                android:layout_height="wrap_content" android:id="@+id/profile_fname"/>
+
+            <View android:layout_width="match_parent"
+                android:outlineSpotShadowColor="#000"
+                android:alpha="0.5"
+                android:background="#c0c0c0"
+                android:layout_height="1dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="30dp"
+                android:text="Lastname"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+            <TextView
+                android:text="8527657955"
+                android:layout_width="match_parent"
+
+                android:textSize="22sp"
+                android:layout_marginTop="8dp"
+                android:textColor="#000"
+                android:layout_height="wrap_content" android:id="@+id/profile_lname"/>
+            <View android:layout_width="match_parent"
+                android:outlineSpotShadowColor="#000"
+                android:alpha="0.5"
+                android:background="#c0c0c0"
+                android:layout_height="1dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="30dp"
+                android:text="DOB"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+            <TextView
+                android:text="Apkglobal Solution"
+                android:layout_width="match_parent"
+
+                android:textSize="22sp"
+                android:layout_marginTop="8dp"
+                android:textColor="#000"
+                android:layout_height="wrap_content" android:id="@+id/profile_dob"/>
+            <View android:layout_width="match_parent"
+                android:background="#c0c0c0"
+                android:alpha="0.5"
+                android:layout_height="1dp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="30dp"
+                android:text="Percentage"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/profile_percentage"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Apkglobal Solution"
+                android:textColor="#000"
+                android:textSize="22sp" />
+            <View android:layout_width="match_parent"
+                android:background="#c0c0c0"
+                android:alpha="0.5"
+                android:layout_height="1dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="30dp"
+                android:text="Email"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/profile_email"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Apkglobal Solution"
+                android:textColor="#000"
+                android:textSize="22sp" />
+            <View android:layout_width="match_parent"
+                android:background="#c0c0c0"
+                android:alpha="0.5"
+                android:layout_height="1dp"/>
+
+            <Button android:layout_width="match_parent"
+                android:background="@drawable/button_background2"
+                android:layout_marginTop="10dp"
+                android:text="Logout"
+                android:textColor="#fff"
+                android:drawableLeft="@drawable/ic_power_settings_new_black_24dp"
+                android:gravity="center"
+                android:paddingLeft="150dp"
+                android:paddingRight="150dp"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
